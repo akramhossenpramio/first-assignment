@@ -3,6 +3,7 @@
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
+    background: #F5F5F5;
   }
 /* nav styles */
 
@@ -64,5 +65,67 @@ font-weight: 700;
     font-weight: 600;
 }
 
-.banner img{
+/* future-section */
+
+.future-section{
+    background: #F5F5F5;
+}
+
+.future-title{
+    color: #0E0E0E;
+font-family: "Fira Sans";
+font-size: 40px;
+font-weight: 700;
+}
+
+.future-description{
+    color: rgba(14, 14, 14, 0.70);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.future-container{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.vision-one{
+    border-radius: 16px;
+border: 0px solid #5490F5;
+background: rgba(84, 144, 245, 0.20);
+display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1 0 0;
+}
+
+.vision-two{
+    border-radius: 16px;
+border: 0px solid #09A15C;
+background: #C6E4D6;
+display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1 0 0;
+
+}
+
+.vision-three{
+    border-radius: 16px;
+border: 0px solid #FFC239;
+background: #F7EBCF;
+display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1 0 0;
 }
